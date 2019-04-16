@@ -1,7 +1,13 @@
 language: bash
 sudo: false
+
 services:
   - docker
+addons:
+  apt:
+    packages:
+      - docker-ce
+      
 script: 
   - bash deps-download.sh
   - bash build.sh
