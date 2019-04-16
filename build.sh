@@ -14,7 +14,7 @@ build() {
 
 finalbuild() {
     NAME=$1
-    IMAGE=vfrank66/awsgluespark-$NAME:$TAG
+    IMAGE=vfrank66/awsglue-local-dev:spark-$NAME$TAG
     cd $([ -z "$2" ] && echo "./$NAME" || echo "$2")
     echo '--------------------------' building $IMAGE in $(pwd)
     docker build -t $IMAGE .
