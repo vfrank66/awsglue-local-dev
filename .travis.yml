@@ -7,7 +7,7 @@ addons:
   apt:
     packages:
       - docker-ce
-      
+
 script: 
   - bash deps-download.sh
   - bash build.sh
@@ -15,6 +15,6 @@ script:
 deploy:
   skip-cleanup: true
   provider: script 
-  script: bash docker_push
+  script: bash docker_push.sh
   on:
     branch: master 
