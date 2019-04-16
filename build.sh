@@ -13,7 +13,6 @@ build() {
     cd -
 }
 
-bash deps-download.sh
 build base
 build master
 build worker
