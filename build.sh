@@ -12,7 +12,7 @@ build() {
     cd -
 }
 
-finalbuild() {
+buildToPush() {
     NAME=$1
     IMAGE=vfrank66/awsglue-local-dev:spark-$NAME$TAG
     cd $([ -z "$2" ] && echo "./$NAME" || echo "$2")
@@ -22,6 +22,6 @@ finalbuild() {
 }
 
 build base
-build master
-build worker
-finalbuild submit
+buildToPush master
+buildToPush worker
+buildToPush submit
