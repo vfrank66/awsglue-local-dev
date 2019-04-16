@@ -1,0 +1,6 @@
+*~
+.metals/
+.metals
+*/*.jar 
+*.jar
+submit/*.jar

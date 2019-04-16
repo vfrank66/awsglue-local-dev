@@ -1,0 +1,13 @@
+version: "3"
+services:
+  app:
+    build: .
+    container_name: localglue_app
+    networks:
+      - lcs-glue-transformer_default
+    environment:
+      - "SPARK_MASTER=spark://spark-master:7077"
+networks:
+  lcs-glue-transformer_default:
+    external:
+      name: lcs-glue-transformer_default
