@@ -1,6 +1,6 @@
 [![Build Status](https://www.travis-ci.com/vfrank66/awsglue-local-dev.svg?branch=master)](https://www.travis-ci.com/vfrank66/awsglue-local-dev)
 
-[![DepShield Badge](https://depshield.sonatype.org/badges/owner/repository/depshield.svg)](https://depshield.github.io)
+[![DepShield Badge](https://depshield.sonatype.org/badges/vfrank/awsglue-local-dev/depshield.svg)](https://depshield.github.io)
 
 # Shoutout to BDE2020
 
