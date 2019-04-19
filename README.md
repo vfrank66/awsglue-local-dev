@@ -1,5 +1,6 @@
 [![Build Status](https://www.travis-ci.com/vfrank66/awsglue-local-dev.svg?branch=master)](https://www.travis-ci.com/vfrank66/awsglue-local-dev)
 [![DepShield Badge](https://depshield.sonatype.org/badges/vfrank66/awsglue-local-dev/depshield.svg)](https://depshield.github.io)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7544f4129969430fa5a4539d92970597)](https://www.codacy.com/app/vfrank66/awsglue-local-dev?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vfrank66/awsglue-local-dev&amp;utm_campaign=Badge_Grade)
 
 # Shoutout to BDE2020
 
